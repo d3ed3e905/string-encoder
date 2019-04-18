@@ -1,0 +1,28 @@
+TASK 1:
+*Functii utilizate: citire(), tip()
+*Afisarea liniei cu numarul de termeni de tip cuvant se face in functia "tip".
+*Mod de lucru: 
+-vector de siruri (*vp[100]) in care am alocat dinamic lungimea fiecarui sir.
+-citire() retuneaza "n" =numarul total de siruri introdus;
+-in tip() prelucrez primele n-2 siruri;
+-cand determin tipul de termen, vectorului "eticheta[]" ii atribui 1,2 sau 3.
+*Probleme intampinate:
+-la utilizarea functiei isdigit apareau warninguri in Makefile.
+
+TASK 2:
+*Functie principala utilizata: prelucrare()
+Alte functii:
+-->cuvinte: cuvant(), divizor(), cuvant_cu_cifre(), strrev()
+-->caractere: caracter();
+-->numere: numar_maxim(), numar_minim().
+*Mod de lucru:
+-prelucrarea se face in functie de valorile din eticheta[];
+-masajul prelucrat se afla in (final[])
+
+TASK 3:
+*Functii utilizate: alocare(), impartire(), complex(), descrescator(), reordonare().
+*Mod de lucru:
+-ultimul sir (struct string v[]) va avea dimensiunea cel putin N;
+-alocarea se face separat pentru ultimul sir;
+-daca mesajul va fi compus dintr-un singur sir, sirul va fi identic cu mesajul deja afisat;
+-altfel, mesajul final va fi stocat in vectorul (mesaj_final[])
